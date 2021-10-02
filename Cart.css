@@ -1,0 +1,103 @@
+.back{
+    float:left;
+}
+.carticon{
+    float:right;
+    position:relative;
+}
+.carticon span{
+    position:absolute;
+    left:13px;
+    width:17px;
+    height:17px;
+    background:rgb(76, 76, 161);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    color:white;
+    font-size: small;
+}
+.itemdiv{
+    background-color: rgb(243, 241, 241);
+    width: 90%;
+    min-height:350px;
+    margin:20px auto 0px auto;
+    position: relative;
+}
+.itemdiv .itemblock{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width:95%;
+    height:90%;
+    overflow-x: hidden;
+}
+.flx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px 15px 0px;
+}
+.flxcol{
+    flex-direction: column;
+    line-height:5px;
+}
+.image{
+    width:120px;
+    height: 70px;
+    background-color: aquamarine;
+    position: relative;
+}
+.image img{
+    position: absolute;
+    width: 100%;
+    height:100%;
+}
+#input{
+    max-width:15%;
+    height: 20px;
+    border-radius: 0px;
+    text-align: center;
+    padding: 0;
+}
+.btt{
+    border:none;
+    outline:none;
+    background: none;
+    margin:5px;
+}
+.bill{
+    width:100%;
+}
+.bill .amount{
+    float:right;
+    margin:15px;
+    padding:5px;
+}
+.amount button{
+    float:right;
+    margin-top:-10px;
+}
+/*--scrollbar styling--*/
+
+.itemblock::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.itemblock::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.itemblock::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
